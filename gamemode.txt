@@ -1,0 +1,83 @@
+//add-ons to load
+ADDON Brick_Large_Cubes
+ADDON Emote_Alarm
+ADDON Emote_Confusion
+ADDON Emote_Hate
+ADDON Emote_Love
+ADDON Light_Animated
+ADDON Light_Basic
+ADDON Particle_Basic
+ADDON Particle_FX_Cans
+ADDON Particle_Player
+ADDON Particle_Tools
+ADDON Player_Fuel_Jet
+ADDON Projectile_GravityRocket
+ADDON Projectile_Pinball
+ADDON Projectile_Pong
+ADDON Projectile_Radio_Wave
+ADDON Weapon_Bow
+ADDON Weapon_Gun
+ADDON Weapon_Guns_Akimbo
+ADDON Weapon_Horse_Ray
+ADDON Weapon_Push_Broom
+ADDON Weapon_Rocket_Launcher
+ADDON Weapon_Spear
+ADDON Weapon_Sword
+
+//what the hell requires this
+ADDON Vehicle_Horse
+
+ADDON Gamemode_Qbe
+
+
+//environment
+$EnvGuiServer::SimpleMode 1
+$EnvGuiServer::SkyFile Add-Ons/Sky_Skylands/Skylands.dml
+$EnvGuiServer::WaterFile Add-Ons/Water_Default/default.water
+$EnvGuiServer::WaterHeight 100
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
+
+
+//minigame rules
+$MiniGame::Enabled 1
+$MiniGame::GameColor 15
+$MiniGame::InviteOnly 0
+$MiniGame::IncludeAllPlayersBricks 1
+$MiniGame::PlayersUseOwnBricks 0
+
+$MiniGame::Points_BreakBrick 0
+$MiniGame::Points_PlantBrick 0
+$MiniGame::Points_KillPlayer 0
+$MiniGame::Points_KillBot 0
+$MiniGame::Points_KillSelf 0
+$MiniGame::Points_Die 0
+   
+$MiniGame::RespawnTime 15
+$MiniGame::VehicleRespawnTime -1
+$MiniGame::BrickRespawnTime 60
+$MiniGame::BotRespawnTime 5
+
+$MiniGame::UseSpawnBricks 0
+$MiniGame::FallingDamage 1
+$MiniGame::WeaponDamage 1
+$MiniGame::SelfDamage 1
+$MiniGame::VehicleDamage 1
+$MiniGame::BrickDamage 1
+$MiniGame::BotDamage 1
+$MiniGame::EnableWand 0
+$MiniGame::EnableBuilding 0
+$MiniGame::EnablePainting 0
+
+$MiniGame::PlayerDataBlockName Fuel-Jet Player
+
+$MiniGame::StartEquipName0 0
+$MiniGame::StartEquipName1 0 
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+$MiniGame::TimeLimit -1
+
+
+//config settings
+$Server::WelcomeMessage \c2Welcome to Qbe, %1. \c4The goal of this game is to gather as many points as you can from mining the Qbe, and keeping others from gaining points!
